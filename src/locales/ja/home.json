@@ -1,0 +1,123 @@
+{
+  "hero": {
+    "title": "性抑圧指数計算器",
+    "subtitle": "専門的な性心理的健康自己評価ツール",
+    "description": "専門的な性心理的健康自己評価ツール。複数の検証済み心理測定スケールに基づき、科学的に自分の性心理的特徴を理解し、性健康と親密な関係の発展を促進します。",
+    "badge": "科学研究に基づく心理評価ツール"
+  },
+  "features": {
+    "adaptive": "インテリジェント適応評価",
+    "adaptiveDescription": "システムはあなたの年齢層と個人背景に基づいて、最適なスケール組み合わせを自動選択します",
+    "protection": "14-17歳の青少年向けの特別な保護メカニズムを提供",
+    "cultural": "性経験のないユーザー向けの文化的に敏感な評価内容を提供",
+    "accurate": "すべての人が正確で適切な評価体験を得られることを保証"
+  },
+  "stats": {
+    "time": "8-15",
+    "timeUnit": "分クイックテスト",
+    "dimensions": "4",
+    "dimensionsLabel": "コア次元",
+    "privacy": "100%",
+    "privacyLabel": "プライバシー保護",
+    "science": "科学的",
+    "scienceLabel": "研究検証"
+  },
+  "assessmentTypes": {
+    "title": "あなたに適した評価バージョンを選択",
+    "subtitle": "利用可能な時間と詳細度のニーズに応じて、2つの評価バージョンを提供します",
+    "quick": {
+      "title": "クイック評価版",
+      "description": "初回使用とクイック理解に適しています",
+      "recommended": "推奨",
+      "features": {
+        "sis": "SIS/SES-SF 14項目スケール",
+        "mosher": "Mosher性罪悪感10項目簡易版",
+        "kiss": "KISS-9性羞恥スケール",
+        "sos": "SOS性観感スクリーニング版"
+      },
+      "duration": "予想時間",
+      "durationValue": "8-15 分",
+      "questions": "質問数",
+      "questionsValue": "33-42 問",
+      "button": "クイック評価開始"
+    },
+    "full": {
+      "title": "完全評価版",
+      "description": "より包括的で深い専門分析",
+      "features": {
+        "sis": "完全版SIS/SESスケール",
+        "mosher": "完全Mosher性罪悪感スケール",
+        "kiss": "KISS-9 + 追加次元分析",
+        "bsas": "BSAS性態度スケール基準"
+      },
+      "duration": "予想時間",
+      "durationValue": "25-40 分",
+      "questions": "質問数",
+      "questionsValue": "58-126 問",
+      "button": "完全評価開始"
+    }
+  },
+  "science": {
+    "title": "科学的で信頼性の高い評価基盤",
+    "subtitle": "国際的に認められた心理測定学スケールに基づく、厳格に検証された科学的ツール",
+    "models": {
+      "dualControl": {
+        "title": "デュアルコントロールモデル",
+        "description": "JanssenらのSIS/SESデュアルコントロールモデルに基づき、性抑制と性興奮システムを測定"
+      },
+      "guilt": {
+        "title": "性罪悪感測定",
+        "description": "Mosher性罪悪感スケールを採用し、性関連の罪悪感と道徳的負担を評価"
+      },
+      "shame": {
+        "title": "性羞恥評価",
+        "description": "KISS-9スケールを使用して性関連の羞恥体験と自己受容を測定"
+      },
+      "orientation": {
+        "title": "性観感調査",
+        "description": "SOSスケールで性刺激への感情的指向と接近回避傾向を評価"
+      }
+    }
+  },
+  "privacy": {
+    "title": "あなたのプライバシーが私たちの最優先事項です",
+    "description": "すべての評価データはあなたのデバイスでローカルに処理・保存され、サーバーにアップロードされることはありません。完全なデータ制御権を持ち、いつでも評価履歴を削除またはエクスポートできます。",
+    "features": {
+      "localStorage": "ローカルデータ保存",
+      "anonymous": "完全匿名化",
+      "deletable": "いつでも削除可能"
+    }
+  },
+  "cta": {
+    "title": "性心理的健康の旅を始める準備はできましたか？",
+    "description": "科学的自己評価を通じて、自分自身をより良く理解し、健康的な性心理発達と親密な関係を促進しましょう。",
+    "buttons": {
+      "start": "今すぐ評価開始",
+      "learnMore": "詳細情報を見る"
+    }
+  },
+  "footer": {
+    "description": "科学研究に基づく性抑圧指数計算器。あなたの性心理的健康をより良く理解するお手伝いをします。",
+    "sections": {
+      "tools": {
+        "title": "評価ツール",
+        "quick": "クイック評価",
+        "full": "完全評価",
+        "history": "履歴"
+      },
+      "resources": {
+        "title": "リソース",
+        "guide": "使用ガイド",
+        "science": "科学的根拠",
+        "privacy": "プライバシーポリシー"
+      },
+      "support": {
+        "title": "サポート",
+        "faq": "よくある質問",
+        "consultation": "専門相談",
+        "crisis": "危機リソース"
+      }
+    },
+    "copyright": "© 2025 性抑圧指数計算器. 教育と自己理解目的のみで使用。専門的なメンタルヘルスサービスの代替ではありません。"
+  }
+}

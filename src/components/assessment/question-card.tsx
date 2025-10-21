@@ -12,6 +12,7 @@ import {Badge} from '@/components/ui/badge';
 import {AlertCircle, SkipForward} from 'lucide-react';
 import {Question, QuestionOption, Response} from '@/types';
 import {ALL_SCALES} from '@/lib/scales';
+import {useTranslation} from 'react-i18next';
 
 interface QuestionCardProps {
   question: Question;
@@ -32,6 +33,7 @@ export function QuestionCard({
   onSkip,
   allowSkip = false
 }: QuestionCardProps) {
+  const { t } = useTranslation(['assessment']);
   const [selectedValue, setSelectedValue] = useState<string>(
     currentResponse?.value.toString() || ''
   );
@@ -165,7 +167,7 @@ export function QuestionCard({
                 className="text-muted-foreground hover:text-foreground"
               >
                 <SkipForward className="w-4 h-4 mr-2" />
-                跳过此题
+                {t('assessment:questionnaire.questionCard.skip')}
               </Button>
             </div>
           )}

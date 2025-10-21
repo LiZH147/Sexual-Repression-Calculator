@@ -1,69 +1,189 @@
 {
+  "title": "性抑圧指数評価",
+  "subtitle": "科学研究に基づく心理評価ツール",
+  "steps": {
+    "consent": "インフォームドコンセント",
+    "demographics": "基本情報",
+    "questionnaire": "アンケート回答",
+    "processing": "結果計算",
+    "completed": "評価完了"
+  },
+  "stepDescriptions": {
+    "consent": "評価参加の条項を読み、同意する",
+    "demographics": "必要不可欠な人口統計学情報を記入（完全匿名）",
+    "questionnaire": "個人の実際の状況に基づいて正直に質問に答える",
+    "processing": "科学的アルゴリズムを使用してあなたの性抑圧指数を計算",
+    "completed": "詳細なSRI指数分析レポートを取得"
+  },
+  "types": {
+    "quick": {
+      "name": "クイック評価版",
+      "description": "初回使用とクイック理解に適しています",
+      "duration": "8-15 分",
+      "questions": "33-42 問",
+      "recommended": "推奨"
+    },
+    "full": {
+      "name": "完全評価版",
+      "description": "より包括的で深い専門分析",
+      "duration": "25-40 分",
+      "questions": "58-126 問"
+    }
+  },
+  "features": {
+    "adaptive": "インテリジェント適応評価",
+    "adaptiveDescription": "システムはあなたの年齢層と個人背景に基づいて最適なスケール組み合わせを自動選択します",
+    "protection": "14-17歳の青少年向けの特別な保護メカニズムを提供",
+    "cultural": "性経験のないユーザー向けの文化的に敏感な評価内容を提供",
+    "accurate": "すべての人が正確で適切な評価体験を得られることを保証"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "back": "戻る",
+    "quickAssessment": "クイック評価",
+    "fullAssessment": "完全評価",
+    "overallProgress": "全体の進捗"
+  },
+  "progressDialog": {
+    "title": "未完了の評価が検出されました",
+    "description": "ローカルに保存された未完了の評価が検出されました。{{count}}問に回答済みです。回答を続けるか、最初からやり直すかを選択してください。",
+    "continue": "回答を続ける",
+    "discard": "最初からやり直す"
+  },
+  "completion": {
+    "title": "アンケート完了",
+    "description": "おめでとうございます！すべてのアンケート項目を完了しました。結果を計算しています。",
+    "answered": "回答済み",
+    "total": "総質問数",
+    "unanswered": "未回答",
+    "continueCheck": "チェックを続ける",
+    "viewResults": "結果を表示"
+  },
+  "processing": {
+    "title": "あなたの回答を分析中",
+    "description": "科学的アルゴリズムを使用してあなたの性抑圧指数を計算しています。しばらくお待ちください...",
+    "steps": {
+      "normalization": "多次元標準化アルゴリズムを適用",
+      "generation": "個別化分析レポートを生成",
+      "protection": "あなたのプライバシーデータを保護"
+    }
+  },
+  "bottomHint": {
+    "dataSecurity": "あなたのすべての回答はローカルデバイスに安全に保存されます",
+    "dataSecurityShort": "データ安全保存",
+    "answeredCount": "回答済み: {{count}} 問"
+  },
+  "errors": {
+    "calculationError": "結果計算中にエラーが発生しました。再試行してください。",
+    "progressCheckError": "保存された進捗をチェック中にエラーが発生しました:"
+  },
+  "consent": {
     "title": "性抑圧指数評価",
     "subtitle": "科学研究に基づく心理評価ツール",
-    "steps": {
-      "consent": "インフォームド・コンセント",
-      "demographics": "基本情報",
-      "questionnaire": "アンケート回答",
-      "processing": "結果計算",
-      "completed": "評価完了"
-    },
-    "stepDescriptions": {
-      "consent": "評価参加の条項を読み、同意する",
-      "demographics": "必要な人口統計学的情報を記入（完全匿名）",
-      "questionnaire": "個人の実際の状況に基づいて正直に質問に答える",
-      "processing": "科学的アルゴリズムを使用して性抑圧指数を計算",
-      "completed": "詳細なSRI指数分析レポートを取得"
-    },
-    "types": {
-      "quick": {
-        "name": "クイック評価版",
-        "description": "初回使用とクイック理解に適している",
-        "duration": "8-15 分",
-        "questions": "33-42 問",
-        "recommended": "推奨"
+    "formTitle": "インフォームドコンセント",
+    "sections": {
+      "purpose": {
+        "title": "評価目的",
+        "description": "この評価は、性関連刺激への感情的反応、性罪悪感、性羞恥体験、性抑制と興奮のバランスなど、あなたの性心理的特徴を理解することを目的としています。これは科学研究に基づく自己探求ツールで、自身の性心理的健康への認識と理解を促進します。",
+        "agreement": "この評価の目的が自分の性心理的特徴を理解するためのものであることを理解しています"
       },
-      "full": {
-        "name": "完全評価版",
-        "description": "より包括的で深い専門分析",
-        "duration": "25-40 分",
-        "questions": "58-126 問"
+      "privacy": {
+        "title": "プライバシー保護",
+        "description": "あなたのすべての回答は完全に匿名化され、あなたのデバイスにローカルにのみ保存され、サーバーにアップロードされることはありません。個人を特定できる情報は一切収集しません。ローカルに保存されたデータはいつでも削除でき、個人記録用にデータをエクスポートすることもできます。あなたのプライバシーとデータの安全が私たちの最優先事項です。",
+        "agreement": "私のデータが匿名化され、ローカルデバイスにのみ保存されることを理解しています"
+      },
+      "voluntary": {
+        "title": "自発的参加",
+        "description": "この評価への参加は完全に自発的な原則に基づいています。いつでも理由を説明することなく評価を終了できます。不快に感じる質問については、スキップすることを選択できます。評価中に不快感を感じた場合は、すぐに停止し、専門的なメンタルヘルスサービスの助けを求めてください。",
+        "agreement": "参加は自発的であり、いつでも評価を終了できることを理解しています"
+      },
+      "nonDiagnostic": {
+        "title": "非診断性質",
+        "description": "この評価結果は自己理解と内省の目的でのみ使用され、専門的なメンタルヘルス診断や治療の代替ではありません。性心理的健康に関して悩みがある場合は、資格のあるメンタルヘルス専門家に相談することをお勧めします。評価結果は医療判断や自己診断に使用すべきではありません。",
+        "agreement": "これは医療診断ツールではなく、必要に応じて専門的な助けを求めることを理解しています"
+      },
+      "minorProtection": {
+        "title": "未成年者保護条項",
+        "description": "あなたは性心理的認知に関する評価に参加しようとしています。未成年者として、私たちはあなたの安全と福祉を特に重視しています。この評価内容は青少年向けに特別に調整されており、不適切な内容は含まれていません。保護者または後見人の了解と同意を得てこの評価に参加することを強く推奨します。",
+        "ageConfirmation": "私の年齢が14-17歳であることを確認し、これが教育的な自己認知ツールであることを理解しています",
+        "parentalConsent": "保護者または後見人にこの評価について伝えたか、独立して参加決定を行う能力があることを確認しています"
       }
     },
-    "features": {
-      "adaptive": "インテリジェント適応評価",
-      "adaptiveDescription": "システムは年齢層と個人背景に基づいて最適なスケール組み合わせを自動選択します",
-      "protection": "14-17歳の青少年に特別な保護メカニズムを提供",
-      "cultural": "性経験のないユーザーに文化的に敏感な評価内容を提供",
-      "accurate": "すべての人が正確で適切な評価体験を得られることを保証"
+    "alerts": {
+      "minorReminder": "青少年専用リマインダー：学習、生活、感情面で悩みがある場合は、保護者、教師、学校カウンセラーに相談してください。青少年期の困惑は正常であり、助けを求めることは勇敢で賢明な選択です。",
+      "importantReminder": "重要なリマインダー：現在深刻な心理的苦痛、うつ病、不安、自傷の傾向を経験している場合は、すぐに専門的なメンタルヘルスサービスの助けを求めてください。この評価は急性心理危機状態にある人には適していません。"
     },
-    "progressDialog": {
-      "title": "未完了の評価が検出されました",
-      "description": "ローカルに保存された未完了の評価が検出されました。{{count}}問に回答済みです。回答を続けるか最初からやり直すかを選択してください。",
-      "continue": "回答を続ける",
-      "discard": "最初からやり直す"
+    "buttons": {
+      "back": "戻る",
+      "disagree": "同意しません",
+      "agree": "同意して評価を開始"
+    },
+    "footer": "このツールは科学研究文献に基づいて開発され、SIS/SES-SF、Mosher性罪悪感スケール、KISS-9性羞恥スケールなど、検証済みの心理測定ツールを源としています。"
+  },
+  "demographics": {
+    "title": "基本情報",
+    "subtitle": "いくつかの基本情報を提供してください。これにより、より正確な結果分析を提供できます",
+    "formTitle": "人口統計学情報",
+    "privacy": {
+      "title": "プライバシー保護",
+      "description": "上記の情報は個別化された結果分析を提供するためにのみ使用され、すべてのデータはあなたのデバイスでローカルに処理され、サーバーにアップロードされることはありません。これらのデータはいつでも削除できます。"
+    },
+    "buttons": {
+      "back": "戻る",
+      "continue": "評価を続行"
+    },
+    "progress": "ステップ1/3：基本情報収集",
+    "validation": {
+      "required": "オプションを選択してください"
+    },
+    "labels": {
+      "optional": "任意"
+    }
+  },
+  "questionnaire": {
+    "pagination": {
+      "previous": "前のページ",
+      "next": "次のページ",
+      "page": "ページ"
     },
     "completion": {
       "title": "アンケート完了",
-      "description": "すべてのアンケート質問を完了しました！結果を計算しています。",
-      "answered": "回答済み",
-      "total": "総質問数",
-      "unanswered": "未回答",
-      "continueCheck": "チェックを続ける",
-      "viewResults": "結果を表示"
-    },
-    "processing": {
-      "title": "回答を分析中",
-      "description": "科学的アルゴリズムを使用して性抑圧指数を計算しています。しばらくお待ちください...",
-      "steps": {
-        "normalization": "多次元標準化アルゴリズムを適用",
-        "generation": "個別分析レポートを生成",
-        "protection": "プライバシーデータを保護"
+      "description": "おめでとうございます！すべてのアンケート項目を完了しました。結果を計算しています。",
+      "stats": {
+        "answered": "回答済み",
+        "total": "総質問数",
+        "unanswered": "未回答"
+      },
+      "buttons": {
+        "continueCheck": "チェックを続ける",
+        "viewResults": "結果を表示"
       }
     },
-    "bottomHint": {
-      "dataSecurity": "すべての回答はローカルデバイスに安全に保存されます",
-      "dataSecurityShort": "データ安全保存",
-      "answeredCount": "回答済み: {{count}} 問"
+    "questionCard": {
+      "required": "必須",
+      "skip": "スキップ",
+      "validation": "オプションを選択してください"
+    },
+    "progress": {
+      "current": "第{{current}}問/全{{total}}問",
+      "stages": {
+        "start": "開始",
+        "progress": "進行中",
+        "halfway": "半分完了",
+        "almost": "ほぼ完了",
+        "finishing": "まもなく完了"
+      },
+      "estimatedTime": "約{{minutes}}分",
+      "currentScale": "現在のスケール：{{scaleName}}",
+      "encouragement": "あなたの回答はより正確な分析結果の提供に役立ちます"
+    },
+    "overview": {
+      "title": "質問概要",
+      "legend": {
+        "answered": "回答済み",
+        "requiredUnanswered": "必須未回答",
+        "optionalUnanswered": "任意未回答"
+      }
     }
   }
+}

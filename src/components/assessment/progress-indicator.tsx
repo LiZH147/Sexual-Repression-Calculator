@@ -8,6 +8,7 @@ import {Progress} from '@/components/ui/progress';
 import {Card, CardContent} from '@/components/ui/card';
 import {Badge} from '@/components/ui/badge';
 import {Clock, Target, TrendingUp} from 'lucide-react';
+import {useTranslation} from 'react-i18next';
 
 interface ProgressIndicatorProps {
   current: number;
@@ -24,6 +25,7 @@ export function ProgressIndicator({
   scaleName,
   estimatedTimeRemaining
 }: ProgressIndicatorProps) {
+  const { t } = useTranslation(['assessment']);
   // 计算预估剩余时间（如果没有提供）
   const remainingQuestions = total - current;
   const avgTimePerQuestion = 30; // 假设每题30秒
@@ -31,11 +33,11 @@ export function ProgressIndicator({
 
   // 获取进度阶段
   const getProgressStage = () => {
-    if (progress < 25) return { label: '刚开始', color: 'bg-blue-500', textColor: 'text-blue-600' };
-    if (progress < 50) return { label: '进行中', color: 'bg-yellow-500', textColor: 'text-yellow-600' };
-    if (progress < 75) return { label: '过半了', color: 'bg-orange-500', textColor: 'text-orange-600' };
-    if (progress < 95) return { label: '快完成', color: 'bg-green-500', textColor: 'text-green-600' };
-    return { label: '即将完成', color: 'bg-psychology-primary', textColor: 'text-psychology-primary' };
+    if (progress < 25) return { label: t('assessment:questionnaire.progress.stages.start'), color: 'bg-blue-500', textColor: 'text-blue-600' };
+    if (progress < 50) return { label: t('assessment:questionnaire.progress.stages.progress'), color: 'bg-yellow-500', textColor: 'text-yellow-600' };
+    if (progress < 75) return { label: t('assessment:questionnaire.progress.stages.halfway'), color: 'bg-orange-500', textColor: 'text-orange-600' };
+    if (progress < 95) return { label: t('assessment:questionnaire.progress.stages.almost'), color: 'bg-green-500', textColor: 'text-green-600' };
+    return { label: t('assessment:questionnaire.progress.stages.finishing'), color: 'bg-psychology-primary', textColor: 'text-psychology-primary' };
   };
 
   const stage = getProgressStage();
@@ -51,7 +53,7 @@ export function ProgressIndicator({
               <div className="flex items-center gap-3">
                 <Target className="w-5 h-5 text-psychology-primary" />
                 <span className="font-semibold text-lg">
-                  第 {current} 题 / 共 {total} 题
+                  {t('assessment:questionnaire.progress.current', { current, total })}
                 </span>
                 <Badge 
                   variant="secondary" 
@@ -65,7 +67,7 @@ export function ProgressIndicator({
                 {estimatedMinutes > 0 && (
                   <div className="flex items-center gap-1">
                     <Clock className="w-4 h-4" />
-                    <span>约 {estimatedMinutes} 分钟</span>
+                    <span>{t('assessment:questionnaire.progress.estimatedTime', { minutes: estimatedMinutes })}</span>
                   </div>
                 )}
                 <div className="flex items-center gap-1">
@@ -86,7 +88,7 @@ export function ProgressIndicator({
               {scaleName && (
                 <div className="flex justify-between items-center text-sm">
                   <span className="text-muted-foreground">
-                    当前量表：<span className="text-foreground font-medium">{scaleName}</span>
+                    {t('assessment:questionnaire.progress.currentScale', { scaleName })}
                   </span>
                   <span className="text-muted-foreground">
                     {current} / {total}
@@ -112,6 +114,7 @@ export function ProgressIndicator({
  * 根据进度生成激励文案
  */
 function getMotivationalMessage(progress: number): string {
+  // 这里可以添加翻译支持，暂时保持原有逻辑
   if (progress < 20) {
     return '请诚实回答每个问题，这将帮助我们提供更准确的分析。';
   }

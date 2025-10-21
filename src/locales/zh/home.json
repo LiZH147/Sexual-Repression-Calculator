@@ -1,0 +1,123 @@
+{
+  "hero": {
+    "title": "性压抑指数计算器",
+    "subtitle": "专业的性心理健康自我评估工具",
+    "description": "专业的性心理健康自我评估工具，基于多个经过验证的心理测量量表，帮助您科学地了解自己的性心理特征，促进性健康和亲密关系的发展。",
+    "badge": "基于科学研究的心理测评工具"
+  },
+  "features": {
+    "adaptive": "智能适应性评估",
+    "adaptiveDescription": "系统会根据您的年龄段和个人背景自动选择最适合的量表组合",
+    "protection": "为14-17岁青少年提供专门的保护机制",
+    "cultural": "为无性经验用户提供文化敏感的评估内容",
+    "accurate": "确保每个人都能获得准确和适宜的评估体验"
+  },
+  "stats": {
+    "time": "8-15",
+    "timeUnit": "分钟快测",
+    "dimensions": "4",
+    "dimensionsLabel": "核心维度",
+    "privacy": "100%",
+    "privacyLabel": "隐私保护",
+    "science": "科学",
+    "scienceLabel": "研究验证"
+  },
+  "assessmentTypes": {
+    "title": "选择适合您的测评版本",
+    "subtitle": "我们提供两种测评版本，您可以根据可用时间和详细程度需求选择",
+    "quick": {
+      "title": "快速测评版",
+      "description": "适合初次使用和快速了解",
+      "recommended": "推荐",
+      "features": {
+        "sis": "SIS/SES-SF 14项量表",
+        "mosher": "Mosher性内疚10项简版",
+        "kiss": "KISS-9性羞耻量表",
+        "sos": "SOS性观感筛查版"
+      },
+      "duration": "预计用时",
+      "durationValue": "8-15 分钟",
+      "questions": "题目数量",
+      "questionsValue": "33-42 题",
+      "button": "开始快速测评"
+    },
+    "full": {
+      "title": "完整测评版",
+      "description": "更全面深入的专业分析",
+      "features": {
+        "sis": "完整版SIS/SES量表",
+        "mosher": "完整Mosher性内疚量表",
+        "kiss": "KISS-9 + 额外维度分析",
+        "bsas": "BSAS性态度量表校标"
+      },
+      "duration": "预计用时",
+      "durationValue": "25-40 分钟",
+      "questions": "题目数量",
+      "questionsValue": "58-126 题",
+      "button": "开始完整测评"
+    }
+  },
+  "science": {
+    "title": "科学可靠的评估基础",
+    "subtitle": "基于国际认可的心理测量学量表，经过严格验证的科学工具",
+    "models": {
+      "dualControl": {
+        "title": "双控制模型",
+        "description": "基于Janssen等人的SIS/SES双控制模型，测量性抑制和性兴奋系统"
+      },
+      "guilt": {
+        "title": "性内疚测量",
+        "description": "采用Mosher性内疚量表，评估性相关的内疚感和道德负担"
+      },
+      "shame": {
+        "title": "性羞耻评估",
+        "description": "使用KISS-9量表测量性相关的羞耻体验和自我接纳"
+      },
+      "orientation": {
+        "title": "性观感调查",
+        "description": "SOS量表评估对性刺激的情绪取向和接近回避倾向"
+      }
+    }
+  },
+  "privacy": {
+    "title": "您的隐私是我们的首要关注",
+    "description": "所有评估数据仅在您的设备本地处理和存储，不会上传到任何服务器。您拥有完全的数据控制权，可以随时删除或导出您的评估历史。",
+    "features": {
+      "localStorage": "本地数据存储",
+      "anonymous": "完全匿名化",
+      "deletable": "可随时删除"
+    }
+  },
+  "cta": {
+    "title": "准备好开始您的性心理健康之旅了吗？",
+    "description": "通过科学的自我评估，更好地了解自己，促进健康的性心理发展和亲密关系。",
+    "buttons": {
+      "start": "立即开始测评",
+      "learnMore": "了解更多信息"
+    }
+  },
+  "footer": {
+    "description": "基于科学研究的性压抑指数计算器，帮助您更好地了解自己的性心理健康。",
+    "sections": {
+      "tools": {
+        "title": "评估工具",
+        "quick": "快速测评",
+        "full": "完整测评",
+        "history": "历史记录"
+      },
+      "resources": {
+        "title": "资源",
+        "guide": "使用指南",
+        "science": "科学依据",
+        "privacy": "隐私政策"
+      },
+      "support": {
+        "title": "支持",
+        "faq": "常见问题",
+        "consultation": "专业咨询",
+        "crisis": "危机资源"
+      }
+    },
+    "copyright": "© 2025 性压抑指数计算器. 仅供教育和自我了解使用，不能替代专业心理健康服务。"
+  }
+}

@@ -11,6 +11,7 @@ import {Label} from '@/components/ui/label';
 import {ArrowLeft, ArrowRight, Users} from 'lucide-react';
 import {Demographics} from '@/types';
 import {DEMOGRAPHICS_QUESTIONS} from '@/lib/scales';
+import {useTranslation} from 'react-i18next';
 
 interface DemographicsFormProps {
   onSubmit: (demographics: Demographics) => void;
@@ -19,6 +20,7 @@ interface DemographicsFormProps {
 }
 
 export function DemographicsForm({ onSubmit, onBack, initialData }: DemographicsFormProps) {
+  const { t } = useTranslation(['assessment']);
   const [formData, setFormData] = useState<Partial<Demographics & Record<string, any>>>({
     consentToParticipate: true,
     ...initialData
@@ -41,7 +43,7 @@ export function DemographicsForm({ onSubmit, onBack, initialData }: Demographics
     
     for (const question of requiredQuestions) {
       if (!formData[question.id as keyof Demographics]) {
-        newErrors[question.id] = '请选择一个选项';
+        newErrors[question.id] = t('assessment:demographics.validation.required');
       }
     }
     
@@ -78,10 +80,10 @@ export function DemographicsForm({ onSubmit, onBack, initialData }: Demographics
       {/* 标题 */}
       <div className="text-center">
         <h1 className="text-2xl font-bold text-psychology-primary mb-2">
-          基本信息
+          {t('assessment:demographics.title')}
         </h1>
         <p className="text-muted-foreground">
-          请提供一些基本信息，这将帮助我们提供更准确的结果分析
+          {t('assessment:demographics.subtitle')}
         </p>
       </div>
 
@@ -90,7 +92,7 @@ export function DemographicsForm({ onSubmit, onBack, initialData }: Demographics
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <Users className="w-5 h-5 text-psychology-primary" />
-            人口学信息
+            {t('assessment:demographics.formTitle')}
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-8">
@@ -107,7 +109,7 @@ export function DemographicsForm({ onSubmit, onBack, initialData }: Demographics
                   </Label>
                   {!question.required && (
                     <span className="text-xs text-muted-foreground bg-muted px-2 py-1 rounded">
-                      可选
+                      {t('assessment:demographics.labels.optional')}
                     </span>
                   )}
                 </div>
@@ -143,10 +145,9 @@ export function DemographicsForm({ onSubmit, onBack, initialData }: Demographics
 
           {/* 隐私提醒 */}
           <div className="bg-muted/30 p-4 rounded-lg border border-muted">
-            <h4 className="font-medium text-sm mb-2">隐私保护</h4>
+            <h4 className="font-medium text-sm mb-2">{t('assessment:demographics.privacy.title')}</h4>
             <p className="text-xs text-muted-foreground leading-relaxed">
-              以上信息仅用于提供个性化的结果分析，所有数据均在您的设备本地处理，
-              不会上传到任何服务器。您可以随时删除这些数据。
+              {t('assessment:demographics.privacy.description')}
             </p>
           </div>
 
@@ -155,14 +156,14 @@ export function DemographicsForm({ onSubmit, onBack, initialData }: Demographics
             {onBack && (
               <Button variant="outline" onClick={onBack}>
                 <ArrowLeft className="w-4 h-4 mr-2" />
-                返回
+                {t('assessment:demographics.buttons.back')}
               </Button>
             )}
             <Button 
               onClick={handleSubmit}
               className="bg-psychology-primary hover:bg-psychology-primary/90 ml-auto"
             >
-              继续评估
+              {t('assessment:demographics.buttons.continue')}
               <ArrowRight className="w-4 h-4 ml-2" />
             </Button>
           </div>
@@ -171,7 +172,7 @@ export function DemographicsForm({ onSubmit, onBack, initialData }: Demographics
 
       {/* 进度提示 */}
       <div className="text-center text-sm text-muted-foreground">
-        第 1 步，共 3 步：基本信息收集
+        {t('assessment:demographics.progress')}
       </div>
     </div>
   );

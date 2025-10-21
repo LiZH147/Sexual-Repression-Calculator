@@ -17,6 +17,7 @@
     "start": "开始测评",
     "startQuick": "开始快速测评",
     "startFull": "开始完整测评",
+    "minQuickTest": "分钟快测",
     "continue": "继续",
     "continueAnswer": "继续作答",
     "back": "返回",

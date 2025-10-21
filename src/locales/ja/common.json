@@ -17,6 +17,7 @@
     "start": "評価開始",
     "startQuick": "クイック評価開始",
     "startFull": "完全評価開始",
+    "minQuickTest": "分钟快测ja",
     "continue": "続行",
     "continueAnswer": "回答を続ける",
     "back": "戻る",
