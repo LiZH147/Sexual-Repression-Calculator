@@ -1,0 +1,99 @@
+{
+  "app": {
+    "title": "SRI Calculator",
+    "subtitle": "性抑圧指数計算器",
+    "description": "科学研究に基づく心理評価ツール",
+    "tagline": "専門的な性心理的健康自己評価ツール"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "guide": "使用ガイド",
+    "science": "科学的根拠",
+    "history": "履歴",
+    "assessment": "評価開始",
+    "results": "結果を表示"
+  },
+  "buttons": {
+    "start": "評価開始",
+    "startQuick": "クイック評価開始",
+    "startFull": "完全評価開始",
+    "continue": "続行",
+    "continueAnswer": "回答を続ける",
+    "back": "戻る",
+    "next": "次へ",
+    "nextQuestion": "次の質問",
+    "previousQuestion": "前の質問",
+    "submit": "送信",
+    "complete": "完了",
+    "completeAssessment": "アンケート完了",
+    "download": "レポートダウンロード",
+    "share": "結果を共有",
+    "retake": "再評価",
+    "viewResults": "結果を表示",
+    "viewHistory": "履歴を表示",
+    "learnMore": "詳細を見る",
+    "agree": "同意して評価を開始",
+    "disagree": "同意しない",
+    "discard": "最初からやり直す",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "close": "閉じる"
+  },
+  "status": {
+    "loading": "読み込み中...",
+    "processing": "処理中...",
+    "calculating": "計算中...",
+    "analyzing": "回答を分析中",
+    "generating": "個別分析レポートを生成中",
+    "completed": "完了",
+    "error": "エラーが発生しました",
+    "success": "操作が成功しました",
+    "warning": "警告",
+    "info": "情報"
+  },
+  "progress": {
+    "overall": "全体の進捗",
+    "currentStep": "現在のステップ",
+    "totalSteps": "総ステップ数",
+    "answered": "回答済み",
+    "total": "総質問数",
+    "unanswered": "未回答",
+    "required": "必須",
+    "optional": "任意"
+  },
+  "time": {
+    "minutes": "分",
+    "seconds": "秒",
+    "hours": "時間",
+    "days": "日",
+    "estimated": "予想時間",
+    "actual": "実際の時間"
+  },
+  "privacy": {
+    "localStorage": "ローカルデータ保存",
+    "anonymous": "完全匿名化",
+    "deletable": "いつでも削除可能",
+    "secure": "データ安全保存",
+    "noUpload": "サーバーにアップロードされません"
+  },
+  "validation": {
+    "required": "この項目は必須です",
+    "selectOption": "オプションを選択してください",
+    "invalidValue": "無効な値です",
+    "minLength": "{{min}}文字以上で入力してください",
+    "maxLength": "{{max}}文字以下で入力してください"
+  },
+  "errors": {
+    "networkError": "ネットワーク接続エラー",
+    "serverError": "サーバーエラー",
+    "notFound": "リクエストされたリソースが見つかりません",
+    "unauthorized": "認証されていません",
+    "forbidden": "アクセスが禁止されています",
+    "timeout": "リクエストがタイムアウトしました",
+    "unknown": "不明なエラー",
+    "sessionExpired": "セッションが期限切れです",
+    "dataCorrupted": "データが破損しています",
+    "insufficientData": "データが不足しています"
+  }
+}

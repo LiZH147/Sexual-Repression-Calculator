@@ -1,0 +1,118 @@
+{
+    "title": "SRI 评估结果",
+    "mainResult": {
+      "title": "性压抑指数 (SRI)",
+      "score": "{{score}}",
+      "level": "{{level}}",
+      "description": "您的SRI指数为 {{score}}，处于 {{level}} 水平"
+    },
+    "levels": {
+      "very-low": {
+        "label": "很低（较少压抑）",
+        "description": "表现出较少的性压抑，对性相关内容和体验相对开放和接受"
+      },
+      "low": {
+        "label": "偏低",
+        "description": "在性心理方面相对健康，压抑程度较低"
+      },
+      "moderate": {
+        "label": "中等",
+        "description": "处于正常范围内，既不过分压抑也不过分开放"
+      },
+      "high": {
+        "label": "偏高",
+        "description": "存在一定程度的性压抑，可能影响性体验和亲密关系"
+      },
+      "very-high": {
+        "label": "很高",
+        "description": "存在较明显的性压抑，建议寻求专业心理咨询师的帮助"
+      }
+    },
+    "sections": {
+      "interpretation": {
+        "title": "结果解释",
+        "icon": "Info"
+      },
+      "recommendations": {
+        "title": "个性化建议",
+        "icon": "TrendingUp"
+      },
+      "dimensions": {
+        "title": "四维度分析",
+        "icon": "BarChart3"
+      },
+      "details": {
+        "title": "详细分数",
+        "icon": "Shield"
+      },
+      "info": {
+        "title": "评估信息"
+      }
+    },
+    "dimensions": {
+      "sosReversed": {
+        "name": "性观感反向 (SOS)",
+        "description": "对性刺激的消极情绪反应"
+      },
+      "sexGuilt": {
+        "name": "性内疚 (Guilt)",
+        "description": "性相关的内疚感和道德负担"
+      },
+      "sexualShame": {
+        "name": "性羞耻 (Shame)",
+        "description": "性身份和行为的羞耻体验"
+      },
+      "sisOverSes": {
+        "name": "抑制优势 (SIS/SES)",
+        "description": "性抑制相对兴奋的优势程度"
+      }
+    },
+    "assessmentInfo": {
+      "type": "评估类型",
+      "completedAt": "完成时间",
+      "questionCount": "回答题数",
+      "sessionId": "会话ID",
+      "types": {
+        "quick": "快速测评",
+        "full": "完整测评"
+      }
+    },
+    "disclaimer": {
+      "title": "重要声明",
+      "content": "本测评结果仅供参考，不构成医学诊断。SRI指数是基于科学研究的心理测量工具，旨在帮助您了解自己的性心理特征。如果您对结果有疑问或需要专业帮助，建议咨询专业的心理健康专家。",
+      "privacy": "您的所有数据都安全地保存在本地设备上，我们不会收集或传输您的个人信息。"
+    },
+    "sharePrompt": {
+      "title": "欢迎体验SRI性压抑指数评估",
+      "description": "这是一个由朋友分享的评估结果。想要获得属于自己的专业心理分析吗？",
+      "startOwn": "开始我的评估",
+      "learnMore": "了解更多"
+    },
+    "actions": {
+      "downloadReport": "下载报告",
+      "retakeAssessment": "重新测评",
+      "shareResult": "分享结果",
+      "viewHistory": "查看历史记录",
+      "backToHome": "返回首页"
+    },
+    "loading": {
+      "title": "加载结果中",
+      "description": "正在获取您的评估结果..."
+    },
+    "error": {
+      "title": "加载失败",
+      "notFound": "未找到评估会话ID。请确保从历史记录页面正确访问。",
+      "sessionNotFound": "未找到会话ID为 \"{{sessionId}}\" 的评估记录。可能已被删除或损坏。",
+      "incomplete": "该评估尚未完成，无法查看结果。请先完成评估。",
+      "calculationError": "计算结果时发生错误，请重试。",
+      "solutions": {
+        "title": "可能的解决方法:",
+        "items": [
+          "确保从历史记录页面正确点击\"查看结果\"",
+          "检查是否意外删除了评估记录",
+          "清理浏览器缓存后重新评估",
+          "如果问题持续，请重新进行评估"
+        ]
+      }
+    }
+  }

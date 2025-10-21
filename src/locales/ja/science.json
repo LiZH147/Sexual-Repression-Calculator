@@ -1,0 +1,136 @@
+{
+    "title": "科学的根拠",
+    "subtitle": "SRI評価ツールの理論的基盤と研究サポートを提示し、詳細な学術的背景とスケールの信頼性・妥当性情報を提供",
+    "theoreticalBasis": {
+      "title": "理論的基盤",
+      "dualControlModel": {
+        "title": "二重制御モデル (Dual Control Model)",
+        "description": "Janssenら(2002)が提案した性反応二重制御モデルは、人間の性反応が性興奮システム(SES)と性抑制システム(SIS)の二重調節を受けるとしています。このモデルは個人の性行動の違いを理解するための重要な理論的枠組みを提供します。",
+        "badge": "国際的権威理論"
+      },
+      "sexualRepression": {
+        "title": "性抑圧概念",
+        "description": "性抑圧とは、心理的、社会文化的、道徳的要因の総合的な影響に由来する、個人の性衝動、性欲、性行動の体系的抑制を指します。現代心理学研究では、適度な性抑制は正常ですが、過度の抑圧はメンタルヘルスに影響を与える可能性があることが示されています。",
+        "badge": "エビデンスサポート"
+      }
+    },
+    "scaleComposition": {
+      "title": "スケール構成",
+      "scales": [
+        {
+          "name": "SIS/SES-SF",
+          "fullName": "性抑制/性興奮スケール短縮版",
+          "items": "14項目",
+          "author": "Janssen et al. (2002)",
+          "reliability": "α = 0.84-0.91",
+          "description": "性抑制と性興奮システムの感受性を測定し、性パフォーマンス関連抑制(SIS1)と脅威/恐怖関連抑制(SIS2)の2つの次元を含みます。",
+          "color": "bg-psychology-primary/10 border-psychology-primary/20"
+        },
+        {
+          "name": "Mosher性罪悪感スケール",
+          "fullName": "Mosher Sexual Guilt Scale",
+          "items": "10項目",
+          "author": "Mosher (1988)",
+          "reliability": "α = 0.88-0.93",
+          "description": "個人の性行動と性思考に対する罪悪感の程度を評価し、道徳化された性抑圧の核心的特徴を反映します。",
+          "color": "bg-psychology-secondary/10 border-psychology-secondary/20"
+        },
+        {
+          "name": "KISS-9性羞恥スケール",
+          "fullName": "Kyle Inventory of Sexual Shame",
+          "items": "9項目",
+          "author": "Kyle et al. (2013)",
+          "reliability": "α = 0.92-0.95",
+          "description": "個人の性アイデンティティ、性思考、性行動に対する羞恥体験を測定し、深層の性自己概念問題を捉えます。",
+          "color": "bg-psychology-accent/10 border-psychology-accent/20"
+        },
+        {
+          "name": "SOS性観感スケール",
+          "fullName": "Sexual Opinion Survey",
+          "items": "5項目スクリーニング版",
+          "author": "Fisher et al. (1988)",
+          "reliability": "α = 0.82-0.89",
+          "description": "個人の性刺激と性関連内容への感情的指向を評価し、性開放性と保守性を測定します。",
+          "color": "bg-psychology-warning/10 border-psychology-warning/20"
+        }
+      ]
+    },
+    "calculationMethod": {
+      "title": "SRI指数計算方法",
+      "sections": [
+        {
+          "title": "四次元標準化",
+          "content": [
+            "1. 性観感逆転：SOSスコアの逆転変換、高スコアは性刺激への否定的反応を示す",
+            "2. 性罪悪感：Mosherスケールの元のスコア、道徳化された性抑圧を反映",
+            "3. 性羞恥：KISS-9スコア、性アイデンティティ羞恥体験を測定",
+            "4. 抑制優位：(SIS1+SIS2-SES)の差、抑制が興奮に対する優位性を反映"
+          ]
+        },
+        {
+          "title": "zスコア標準化",
+          "content": "人口基準に基づくzスコア標準化方法を採用し、各次元スコアを標準正規分布に変換し、異なるスケールスコアの比較可能性と合成指数の統計的意義を確保します。"
+        },
+        {
+          "title": "SRI合成計算",
+          "content": "4つの次元のzスコアを等重みで合成し、標準正規累積分布関数(CDF)を経て0-100の百分位数に変換し、直感的で理解しやすい性抑圧指数を提供します。"
+        }
+      ]
+    },
+    "reliabilityValidity": {
+      "title": "信頼性・妥当性エビデンス",
+      "reliability": {
+        "title": "信頼性指標",
+        "items": [
+          { "name": "内的整合性", "value": "α > 0.80" },
+          { "name": "再テスト信頼性", "value": "r > 0.75" },
+          { "name": "分割信頼性", "value": "r > 0.78" }
+        ]
+      },
+      "validity": {
+        "title": "妥当性エビデンス",
+        "items": [
+          { "name": "構造妥当性", "value": "CFI > 0.90" },
+          { "name": "収束妥当性", "value": "AVE > 0.50" },
+          { "name": "弁別妥当性", "value": "√AVE > r" }
+        ]
+      }
+    },
+    "researchApplications": {
+      "title": "研究応用",
+      "applications": [
+        {
+          "title": "性心理研究",
+          "description": "性態度、性行動、性心理的健康の実証研究に使用",
+          "icon": "Brain",
+          "count": "500+"
+        },
+        {
+          "title": "臨床評価",
+          "description": "性機能障害と性心理的問題の臨床評価を支援",
+          "icon": "FileText",
+          "count": "200+"
+        },
+        {
+          "title": "文化比較",
+          "description": "異文化間の性観念と性行動パターンの比較研究",
+          "icon": "Users",
+          "count": "150+"
+        }
+      ]
+    },
+    "limitations": {
+      "title": "使用制限と説明",
+      "items": [
+        "基準制限：現在使用されているのは西洋サンプルに基づく参照基準で、中国文化的背景での適用性はさらなる検証が必要です",
+        "測定誤差：すべての心理測定ツールには測定誤差が存在し、結果は他の情報と組み合わせて総合的に解釈すべきです",
+        "動的変化：性抑圧レベルは時間、経験、環境の変化に伴って変化する可能性があり、単回評価結果は永続的な特徴を表すものではありません",
+        "研究用途：主に学術研究と自己理解に使用され、臨床診断や重要な決定には使用すべきではありません"
+      ]
+    },
+    "actions": {
+      "viewGuide": "使用ガイドを見る",
+      "startAssessment": "評価開始",
+      "backToHome": "ホームに戻る"
+    }
+  }

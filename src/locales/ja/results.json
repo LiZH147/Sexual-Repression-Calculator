@@ -1,0 +1,118 @@
+{
+    "title": "SRI 評価結果",
+    "mainResult": {
+      "title": "性抑圧指数 (SRI)",
+      "score": "{{score}}",
+      "level": "{{level}}",
+      "description": "あなたのSRI指数は{{score}}で、{{level}}レベルです"
+    },
+    "levels": {
+      "very-low": {
+        "label": "非常に低い（抑圧が少ない）",
+        "description": "性抑圧が少なく、性関連の内容や体験に対して比較的オープンで受け入れやすい"
+      },
+      "low": {
+        "label": "やや低い",
+        "description": "性心理面で比較的健康で、抑圧レベルが低い"
+      },
+      "moderate": {
+        "label": "中程度",
+        "description": "正常範囲内で、過度に抑圧的でも過度にオープンでもない"
+      },
+      "high": {
+        "label": "やや高い",
+        "description": "ある程度の性抑圧が存在し、性体験や親密な関係に影響を与える可能性がある"
+      },
+      "very-high": {
+        "label": "非常に高い",
+        "description": "顕著な性抑圧が存在し、専門的な心理カウンセラーの助けを求めることをお勧めします"
+      }
+    },
+    "sections": {
+      "interpretation": {
+        "title": "結果解釈",
+        "icon": "Info"
+      },
+      "recommendations": {
+        "title": "個別化された提案",
+        "icon": "TrendingUp"
+      },
+      "dimensions": {
+        "title": "四次元分析",
+        "icon": "BarChart3"
+      },
+      "details": {
+        "title": "詳細スコア",
+        "icon": "Shield"
+      },
+      "info": {
+        "title": "評価情報"
+      }
+    },
+    "dimensions": {
+      "sosReversed": {
+        "name": "性観感逆転 (SOS)",
+        "description": "性刺激への否定的な感情的反応"
+      },
+      "sexGuilt": {
+        "name": "性罪悪感 (Guilt)",
+        "description": "性関連の罪悪感と道徳的負担"
+      },
+      "sexualShame": {
+        "name": "性羞恥 (Shame)",
+        "description": "性アイデンティティと行動の羞恥体験"
+      },
+      "sisOverSes": {
+        "name": "抑制優位 (SIS/SES)",
+        "description": "性抑制が性興奮に対する優位性の程度"
+      }
+    },
+    "assessmentInfo": {
+      "type": "評価タイプ",
+      "completedAt": "完了時間",
+      "questionCount": "回答質問数",
+      "sessionId": "セッションID",
+      "types": {
+        "quick": "クイック評価",
+        "full": "完全評価"
+      }
+    },
+    "disclaimer": {
+      "title": "重要な声明",
+      "content": "この評価結果は参考目的のみであり、医学的診断を構成するものではありません。SRI指数は科学研究に基づく心理測定ツールで、あなたの性心理的特徴を理解するのに役立ちます。結果について疑問がある場合や専門的な助けが必要な場合は、専門的なメンタルヘルス専門家に相談することをお勧めします。",
+      "privacy": "すべてのデータはローカルデバイスに安全に保存され、個人情報を収集または送信することはありません。"
+    },
+    "sharePrompt": {
+      "title": "SRI性抑圧指数評価を体験してください",
+      "description": "これは友人から共有された評価結果です。自分だけの専門的な心理分析を取得しませんか？",
+      "startOwn": "自分の評価を開始",
+      "learnMore": "詳細を見る"
+    },
+    "actions": {
+      "downloadReport": "レポートダウンロード",
+      "retakeAssessment": "再評価",
+      "shareResult": "結果を共有",
+      "viewHistory": "履歴を表示",
+      "backToHome": "ホームに戻る"
+    },
+    "loading": {
+      "title": "結果を読み込み中",
+      "description": "評価結果を取得しています..."
+    },
+    "error": {
+      "title": "読み込み失敗",
+      "notFound": "評価セッションIDが見つかりません。履歴ページから正しくアクセスしてください。",
+      "sessionNotFound": "セッションID「{{sessionId}}」の評価記録が見つかりません。削除されたか破損している可能性があります。",
+      "incomplete": "この評価はまだ完了していません。結果を表示できません。まず評価を完了してください。",
+      "calculationError": "結果の計算中にエラーが発生しました。再試行してください。",
+      "solutions": {
+        "title": "可能な解決方法：",
+        "items": [
+          "履歴ページから正しく「結果を表示」をクリックしていることを確認",
+          "評価記録を誤って削除していないかチェック",
+          "ブラウザキャッシュをクリアしてから再評価",
+          "問題が続く場合は、評価をやり直してください"
+        ]
+      }
+    }
+  }

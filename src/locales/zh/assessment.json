@@ -1,0 +1,69 @@
+{
+    "title": "性压抑指数评估",
+    "subtitle": "基于科学研究的心理测评工具",
+    "steps": {
+      "consent": "知情同意",
+      "demographics": "基本信息",
+      "questionnaire": "问卷作答",
+      "processing": "结果计算",
+      "completed": "评估完成"
+    },
+    "stepDescriptions": {
+      "consent": "阅读并同意参与测评的条款",
+      "demographics": "填写必要的人口学信息（完全匿名）",
+      "questionnaire": "按照个人实际情况诚实回答问题",
+      "processing": "使用科学算法计算您的性压抑指数",
+      "completed": "获得详细的SRI指数分析报告"
+    },
+    "types": {
+      "quick": {
+        "name": "快速测评版",
+        "description": "适合初次使用和快速了解",
+        "duration": "8-15 分钟",
+        "questions": "33-42 题",
+        "recommended": "推荐"
+      },
+      "full": {
+        "name": "完整测评版",
+        "description": "更全面深入的专业分析",
+        "duration": "25-40 分钟",
+        "questions": "58-126 题"
+      }
+    },
+    "features": {
+      "adaptive": "智能适应性评估",
+      "adaptiveDescription": "系统会根据您的年龄段和个人背景自动选择最适合的量表组合",
+      "protection": "为14-17岁青少年提供专门的保护机制",
+      "cultural": "为无性经验用户提供文化敏感的评估内容",
+      "accurate": "确保每个人都能获得准确和适宜的评估体验"
+    },
+    "progressDialog": {
+      "title": "检测到未完成的评估",
+      "description": "检测到本地保存的未完成评估，已回答 {{count}} 道题。请选择继续作答或重新开始。",
+      "continue": "继续作答",
+      "discard": "重新开始"
+    },
+    "completion": {
+      "title": "问卷完成",
+      "description": "恭喜您完成了所有问卷题目！我们正在为您计算结果。",
+      "answered": "已回答",
+      "total": "总题数",
+      "unanswered": "未回答",
+      "continueCheck": "继续检查",
+      "viewResults": "查看结果"
+    },
+    "processing": {
+      "title": "正在分析您的回答",
+      "description": "我们正在使用科学算法计算您的性压抑指数，请稍候...",
+      "steps": {
+        "normalization": "应用多维度标准化算法",
+        "generation": "生成个性化分析报告",
+        "protection": "保护您的隐私数据"
+      }
+    },
+    "bottomHint": {
+      "dataSecurity": "您的所有回答都会安全地保存在本地设备上",
+      "dataSecurityShort": "数据安全保存",
+      "answeredCount": "已回答: {{count}} 题"
+    }
+  }

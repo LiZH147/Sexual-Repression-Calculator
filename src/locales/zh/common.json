@@ -1,0 +1,99 @@
+{
+  "app": {
+    "title": "SRI Calculator",
+    "subtitle": "性压抑指数计算器",
+    "description": "基于科学研究的心理测评工具",
+    "tagline": "专业的性心理健康自我评估工具"
+  },
+  "navigation": {
+    "home": "首页",
+    "guide": "使用指南",
+    "science": "科学依据",
+    "history": "历史记录",
+    "assessment": "开始测评",
+    "results": "查看结果"
+  },
+  "buttons": {
+    "start": "开始测评",
+    "startQuick": "开始快速测评",
+    "startFull": "开始完整测评",
+    "continue": "继续",
+    "continueAnswer": "继续作答",
+    "back": "返回",
+    "next": "下一步",
+    "nextQuestion": "下一题",
+    "previousQuestion": "上一题",
+    "submit": "提交",
+    "complete": "完成",
+    "completeAssessment": "完成问卷",
+    "download": "下载报告",
+    "share": "分享结果",
+    "retake": "重新测评",
+    "viewResults": "查看结果",
+    "viewHistory": "查看历史记录",
+    "learnMore": "了解更多",
+    "agree": "我同意并开始评估",
+    "disagree": "我不同意",
+    "discard": "重新开始",
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "确认",
+    "close": "关闭"
+  },
+  "status": {
+    "loading": "加载中...",
+    "processing": "处理中...",
+    "calculating": "正在计算...",
+    "analyzing": "正在分析您的回答",
+    "generating": "生成个性化分析报告",
+    "completed": "已完成",
+    "error": "发生错误",
+    "success": "操作成功",
+    "warning": "警告",
+    "info": "提示"
+  },
+  "progress": {
+    "overall": "整体进度",
+    "currentStep": "当前步骤",
+    "totalSteps": "总步骤",
+    "answered": "已回答",
+    "total": "总题数",
+    "unanswered": "未回答",
+    "required": "必答",
+    "optional": "可选"
+  },
+  "time": {
+    "minutes": "分钟",
+    "seconds": "秒",
+    "hours": "小时",
+    "days": "天",
+    "estimated": "预计用时",
+    "actual": "实际用时"
+  },
+  "privacy": {
+    "localStorage": "本地数据存储",
+    "anonymous": "完全匿名化",
+    "deletable": "可随时删除",
+    "secure": "数据安全保存",
+    "noUpload": "不会上传到任何服务器"
+  },
+  "validation": {
+    "required": "此字段为必填项",
+    "selectOption": "请选择一个选项",
+    "invalidValue": "无效的值",
+    "minLength": "长度不能少于{{min}}个字符",
+    "maxLength": "长度不能超过{{max}}个字符"
+  },
+  "errors": {
+    "networkError": "网络连接错误",
+    "serverError": "服务器错误",
+    "notFound": "未找到请求的资源",
+    "unauthorized": "未授权访问",
+    "forbidden": "禁止访问",
+    "timeout": "请求超时",
+    "unknown": "未知错误",
+    "sessionExpired": "会话已过期",
+    "dataCorrupted": "数据已损坏",
+    "insufficientData": "数据不足"
+  }
+}
